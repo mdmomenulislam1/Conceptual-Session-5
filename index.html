@@ -17,15 +17,15 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              backgroundImage:{
-                'hero-bg': "url('./image/yellow-bg.jpg')",
-              }
+            theme: {
+                extend: {
+                    backgroundImage: {
+                        'hero-bg': "url('./image/yellow-bg.jpg')",
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 
     <!-- Google Font  -->
 
@@ -91,13 +91,14 @@
         <div class="hero min-h-[calc(100vh-62px)] hero-bg" style="background-image: url(./images/yellow-bg.jpg);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
-              <div class="max-w-md">
-                <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                <button class="btn btn-primary">Shop Now</button>
-              </div>
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
+                    <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+                        exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <button class="btn btn-primary">Shop Now</button>
+                </div>
             </div>
-          </div>
+        </div>
 
     </header>
 
@@ -114,39 +115,45 @@
                 <div class="card bg-base-100 shadow-xl image-full">
                     <figure><img src="./images/shoes.avif" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">Shoes!</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis accusantium doloribus perferendis aliquid pariatur nemo vero nam iste soluta provident, cumque nesciunt eligendi exercitationem reprehenderit nobis, fugiat, repudiandae blanditiis voluptates.
+                        <h2 class="card-title">Shoes!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis accusantium doloribus
+                            perferendis aliquid pariatur nemo vero nam iste soluta provident, cumque nesciunt eligendi
+                            exercitationem reprehenderit nobis, fugiat, repudiandae blanditiis voluptates.
 
-                      </p>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
-                      </div>
+                        </p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
                     </div>
-                  </div>
-                  <div class="card bg-base-100 shadow-xl image-full">
+                </div>
+                <div class="card bg-base-100 shadow-xl image-full">
                     <figure><img src="./images/hoodies.avif" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">Cloths</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis accusantium doloribus perferendis aliquid pariatur nemo vero nam iste soluta provident, cumque nesciunt eligendi exercitationem reprehenderit nobis, fugiat, repudiandae blanditiis voluptates.
-                        
-                      </p>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
-                      </div>
+                        <h2 class="card-title">Cloths</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis accusantium doloribus
+                            perferendis aliquid pariatur nemo vero nam iste soluta provident, cumque nesciunt eligendi
+                            exercitationem reprehenderit nobis, fugiat, repudiandae blanditiis voluptates.
+
+                        </p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
                     </div>
-                  </div>
-                  <div class="card bg-base-100 shadow-xl image-full">
+                </div>
+                <div class="card bg-base-100 shadow-xl image-full">
                     <figure><img src="./images/perfume.avif" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title">Perfume</h2>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis accusantium doloribus perferendis aliquid pariatur nemo vero nam iste soluta provident, cumque nesciunt eligendi exercitationem reprehenderit nobis, fugiat, repudiandae blanditiis voluptates.
-                        
-                      </p>
-                      <div class="card-actions justify-end">
-                        <button class="btn btn-primary">Buy Now</button>
-                      </div>
+                        <h2 class="card-title">Perfume</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis accusantium doloribus
+                            perferendis aliquid pariatur nemo vero nam iste soluta provident, cumque nesciunt eligendi
+                            exercitationem reprehenderit nobis, fugiat, repudiandae blanditiis voluptates.
+
+                        </p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Buy Now</button>
+                        </div>
                     </div>
-                  </div>
+                </div>
             </div>
         </section>
 
@@ -155,7 +162,8 @@
             <div class="flex flex-col md:flex-row gap-10 items-center">
                 <div class="flex-1">
                     <h1 class="text-2xl md:text-4xl mb-5">Lorem, ipsum.</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio possimus repellat adipisci sint suscipit similique illum delectus ipsam iusto.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam optio possimus repellat adipisci
+                        sint suscipit similique illum delectus ipsam iusto.</p>
 
                 </div>
                 <div class="flex-1">
@@ -164,15 +172,120 @@
             </div>
         </div>
 
+        <!-- Product Section  -->
+        <div class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
+            <div class="text-center pb-5">
+                <h1 class="text-2xl md:text-4xl pb-3">Top Product</h1>
+                <p class="text-sm">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+                <div class="card  glass">
+                    <figure><img src="/images/blue-yellow-t-shirt-wooden-hanger-generated-by-ai_188544-42185.avif"
+                            alt="car!" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Life hack</h2>
+                        <p>How to park your car at your garage? Lorem ipsum dolor sit.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Learn now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  glass">
+                    <figure><img src="/images/elegant-businessman-attire-hangs-modern-closet-generated-by-ai_188544-15312.avif"
+                            alt="car!" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Life hack</h2>
+                        <p>How to park your car at your garage? Lorem ipsum dolor sit.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Learn now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  glass">
+                    <figure><img src="/images/elegant-businessman-shirt-wooden-desk-stack-generated-by-ai_188544-34678.avif"
+                            alt="car!" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Life hack</h2>
+                        <p>How to park your car at your garage? Lorem ipsum dolor sit.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Learn now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  glass">
+                    <figure><img src="/images/elegant-businessman-shirt-wooden-desk-stack-generated-by-ai_188544-34678.avif"
+                            alt="car!" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Life hack</h2>
+                        <p>How to park your car at your garage? Lorem ipsum dolor sit.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Learn now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
         <!-- FAQ Section  -->
         <div class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10">
-            
+            <div class="collapse collapse-plus bg-base-200 mb-10">
+                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Hello
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200 mb-10">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Hello
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus bg-base-200 mb-10">
+                <input type="radio" name="my-accordion-3" /> 
+                <div class="collapse-title text-xl font-medium">
+                  Hello
+                </div>
+                <div class="collapse-content"> 
+                  <p>hello</p>
+                </div>
+              </div>
         </div>
     </main>
 
     <!-- This is footer section  -->
     <footer>
-
+        <footer class="footer p-10 bg-neutral text-neutral-content">
+            <div>
+              <span class="footer-title">Services</span> 
+              <a class="link link-hover">Branding</a>
+              <a class="link link-hover">Design</a>
+              <a class="link link-hover">Marketing</a>
+              <a class="link link-hover">Advertisement</a>
+            </div> 
+            <div>
+              <span class="footer-title">Company</span> 
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </div> 
+            <div>
+              <span class="footer-title">Legal</span> 
+              <a class="link link-hover">Terms of use</a>
+              <a class="link link-hover">Privacy policy</a>
+              <a class="link link-hover">Cookie policy</a>
+            </div>
+          </footer>
     </footer>
 </body>
 
